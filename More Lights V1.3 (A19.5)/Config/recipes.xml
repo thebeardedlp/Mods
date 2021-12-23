@@ -1,0 +1,130 @@
+<!-- 
+Here is a template XML format for xpath for A17+ 
+
+This XML file has to be named the same as its vanilla file. If you are editing items.xml, this file needs to be called items.xml
+
+Here are some example xpath:
+	Changes the Light value to 0.45
+  	<set xpath="/items/item[@name='meleeToolTorch']/property[@name='LightValue']/@value">0.45</set>
+	
+	Adds in a new torch at the bottom of the items.xml
+	<append xpath="/items" >
+		<item name="AnothermeleeToolTorch">
+			<property name="Extends" value="meleeToolTorch"/>
+			<property name="LightValue" value="1" />
+		</item>
+	</append>
+	
+	Deletes the torch.
+	<remove xpath="/items/item[@name='meleeToolTorch']" />
+	
+-->
+<configs>
+	<append xpath="/recipes" >	
+
+
+<!-- Porch Lights 04 -->
+<recipe name="porchLight04Brass_player" count="1" craft_area="workbench" tags="learnable">
+	<ingredient name="resourceForgedIron" count="2"/>
+	<ingredient name="resourceElectricParts" count="5"/>
+	<ingredient name="resourceScrapBrass" count="3"/>
+</recipe>
+
+<recipe name="porchLight04_player" count="1" craft_area="workbench" tags="learnable">
+	<ingredient name="resourceForgedIron" count="2"/>
+	<ingredient name="resourceElectricParts" count="5"/>
+	<ingredient name="resourceScrapPolymers" count="3"/>
+</recipe>
+
+<!--  PorchLight  01  -->
+<recipe name="porchLight01_player" count="1" craft_area="workbench" tags="learnable">
+	<ingredient name="resourceForgedIron" count="3"/>
+	<ingredient name="resourceElectricParts" count="5"/>
+	<ingredient name="resourceScrapPolymers" count="3"/>
+</recipe>
+
+<!-- Ceiling Light  05 -->
+<recipe name="ceilingLight05Brass_player" count="1" craft_area="workbench" tags="learnable">
+	<ingredient name="resourceForgedIron" count="3"/>
+	<ingredient name="resourceElectricParts" count="5"/>
+	<ingredient name="resourceScrapBrass" count="3"/>
+</recipe>
+
+<recipe name="ceilingLight05_player" count="1" craft_area="workbench" tags="learnable">
+	<ingredient name="resourceForgedIron" count="3"/>
+	<ingredient name="resourceElectricParts" count="4"/>
+	<ingredient name="resourceScrapPolymers" count="1"/>
+</recipe>
+
+<!-- Ceiling Light  04-->
+<recipe name="ceilingLight04_player" count="1" craft_area="workbench" tags="learnable">
+	<ingredient name="resourceForgedIron" count="3"/>
+	<ingredient name="resourceElectricParts" count="4"/>
+	<ingredient name="resourceScrapPolymers" count="3"/>
+</recipe>
+
+<!-- Ceiling Light  02  -->
+<recipe name="ceilingLight02Brass_player" count="1" craft_area="workbench" tags="learnable">
+	<ingredient name="resourceForgedIron" count="2"/>
+	<ingredient name="resourceElectricParts" count="5"/>
+	<ingredient name="resourceScrapBrass" count="3"/>
+</recipe>
+
+<recipe name="ceilingLight02_player" count="1" craft_area="workbench" tags="learnable">
+	<ingredient name="resourceForgedIron" count="2"/>
+	<ingredient name="resourceElectricParts" count="5"/>
+	<ingredient name="resourceScrapPolymers" count="3"/>
+</recipe>
+
+
+
+<recipe name="endTableLampPlayer" count="1" craft_area="workbench" tags="learnable">
+	<ingredient name="resourceWood" count="5"/>
+	<ingredient name="resourceHeadlight" count="1"/>
+	<ingredient name="resourceElectricParts" count="3"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceScrapPolymers" count="4"/>
+</recipe>
+
+<!-- added 1.1 -->
+<recipe name="deskLampLight_Player" count="1" craft_area="workbench" tags="learnable">
+	<ingredient name="resourceScrapBrass" count="2"/>
+	<ingredient name="resourceElectricParts" count="2"/>
+	<ingredient name="resourceScrapPolymers" count="4"/>
+</recipe>
+
+<recipe name="tableLampLight_Player" count="1" craft_area="workbench" tags="learnable">
+	<ingredient name="resourceWood" count="3"/>
+	<ingredient name="resourceElectricParts" count="2"/>
+	<ingredient name="resourceScrapPolymers" count="2"/>
+	<ingredient name="resourceCloth" count="2"/>
+</recipe>
+
+<recipe name="workLightPOI_Player" count="1" craft_area="workbench" tags="learnable">
+	<ingredient name="resourceMetalPipe" count="1"/>
+	<ingredient name="resourceElectricParts" count="2"/>
+	<ingredient name="resourceScrapPolymers" count="1"/>
+	<ingredient name="resourceScrapIron" count="8"/>
+</recipe>
+
+<recipe name="ceilingFanLight_Player" count="1" craft_area="workbench" tags="learnable">
+	<ingredient name="resourceElectricParts" count="2"/>
+	<ingredient name="resourceScrapPolymers" count="5"/>
+	<ingredient name="resourceScrapIron" count="15"/>
+</recipe>
+
+<recipe name="signExitLight_Player" count="1" craft_area="workbench" tags="learnable">
+	<ingredient name="resourceElectricParts" count="1"/>
+	<ingredient name="resourceScrapPolymers" count="3"/>
+	<ingredient name="resourceScrapIron" count="7"/>
+</recipe>
+
+<recipe name="industrialLight02Red_Player" count="1" craft_area="workbench"  tags="learnable">
+	<ingredient name="resourceForgedIron" count="4"/>
+	<ingredient name="resourceElectricParts" count="5"/>
+	<ingredient name="resourceScrapPolymers" count="1"/>
+</recipe>
+
+	</append>
+
+</configs>

@@ -1,0 +1,4 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+SupplyDropSignal,Blocks,block,,,SupplyDropSignal
+SupplyDropSignal_Desc,Blocks,block,,,"Place to mark the location of an airdrop"
+SupplyDrop,Blocks,block,,,Cube

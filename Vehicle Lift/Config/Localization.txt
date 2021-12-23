@@ -1,0 +1,2 @@
+Key,Source,Context,Changes,English
+vehicleLift,blocks,Block,New,"Vehicle Lift"

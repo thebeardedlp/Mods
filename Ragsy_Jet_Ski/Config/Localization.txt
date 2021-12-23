@@ -1,0 +1,7 @@
+Key,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+
+vehicleJetSki,vehicles,vehicle,new,Jetski,,,,,
+vehicleJetSkiPlaceable,vehicles,item,EnChanged,Jetski Placeable,,,,,
+vehicleJetSkiPlaceableDesc,vehicles,item,EnChanged, Need for speed travel? ,,,,,
+
+

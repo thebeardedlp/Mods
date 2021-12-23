@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Lootable Corps Mod" />
+		<Description value="This mod will add loot to static zombie corpses and dead zombies." />
+		<Author value="Survager" />
+		<Version value="1.3" />
+	</ModInfo>
+</xml>

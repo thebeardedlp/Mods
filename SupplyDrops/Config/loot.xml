@@ -1,0 +1,39 @@
+<configs>
+<!--Add supply drop to loot-->
+<append xpath="//lootcontainer[@id='22']">
+	<item name="Supply Drop Signal" count="1" prob="0.4" />
+</append>
+<append xpath="//lootcontainer[@id='40']">
+	<item name="Supply Drop Signal" count="1" prob="0.4" />
+</append>
+<append xpath="//lootcontainer[@id='41']">
+	<item name="Supply Drop Signal" count="1" prob="0.4" />
+</append>
+<append xpath="//lootcontainer[@id='50']">
+	<item name="Supply Drop Signal" count="1" prob="0.4" />
+</append>
+<append xpath="//lootcontainer[@id='53']">
+	<item name="Supply Drop Signal" count="1" prob="0.4" />
+</append>
+<append xpath="//lootcontainer[@id='61']">
+	<item name="Supply Drop Signal" count="1" prob="0.4" />
+</append>
+<append xpath="//lootcontainer[@id='70']">
+	<item name="Supply Drop Signal" count="1" prob="0.4" />
+</append>
+<append xpath="//lootcontainer[@id='71']">
+	<item name="Supply Drop Signal" count="1" prob="0.4"/>
+</append>
+<append xpath="//lootcontainer[@id='83']">
+	<item name="Supply Drop Signal" count="1" prob="0.4"/>
+</append>
+<append xpath="//lootcontainer[@id='95']">
+	<item name="Supply Drop Signal" count="1" prob="0.4"/>
+</append>
+<append xpath="//lootcontainer[@id='102']">
+	<item name="Supply Drop Signal" count="1" prob="0.4"/>
+</append>
+<append xpath="//lootcontainer[@id='121']">
+	<item name="Supply Drop Signal" count="1" prob="0.4"/>
+</append>
+</configs>

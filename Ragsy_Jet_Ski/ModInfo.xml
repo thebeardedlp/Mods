@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+  <ModInfo>
+    <Name value="Ragsy_Jet_Ski" />
+    <Description value="Adds a JetSki to the Game" />
+    <Author value="Ragsy2145" />
+    <Version value="19.5.1.0" compat="A19" />
+    <Website value="https://community.7daystodie.com/topic/14070-water-vehicle-modlets/" />
+  </ModInfo>
+  <DMT>
+    <dependencies />
+    <conflicts />
+  </DMT>
+</xml>

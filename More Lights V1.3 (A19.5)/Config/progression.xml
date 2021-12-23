@@ -1,0 +1,4 @@
+<configs>
+	<append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@level='2,5']/@tags">porchLight04Brass_player,ceilingLight02_player,ceilingLight02Brass_player,ceilingLight04_player,ceilingLight05_player,ceilingLight05Brass_player,porchLight01_player,porchLight04_player,endTableLampPlayer,deskLampLight_Player,tableLampLight_Player,workLightPOI_Player,ceilingFanLight_Player,signExitLight_Player,industrialLight02Red_Player</append>
+</configs>
+

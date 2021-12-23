@@ -1,0 +1,44 @@
+<config>
+<append xpath="/blocks">
+<block name="Supply Drop Signal">
+			<property name="Class" value="PlantGrowing"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="Material" value="Mwood"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Group" value="Building,advBuilding"/>
+			<property name="PlacementDistance" value="10"/>
+			<property name="DescriptionKey" value="SupplyDropSignal_Desc"/>
+			<property name="Model" value="#@modfolder:Resources/Resources.unity3d?SupplyDropSignalPrefab"/>
+			<property name="StabilitySupport" value="true"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Path" value="solid"/>
+			<property name="EconomicValue" value="200"/>
+			<property name="Collide" value="movement,rockets,sight,melee"/>
+			<property name="CustomIcon" value="AirDropGrenade"/>
+			<property name="MultiBlockDim" value="1,15,1"/>
+			<drop event="Destroy" name="resourceIron" count="10,20" prob="1" tag="allHarvest"/>
+			<property class="PlantGrowing">
+				<property name="Next" value="Supply Drop"/>
+				<property name="GrowthRate" value="1"/>
+				<property name="FertileLevel" value="0"/>
+				<property name="IsRandom" value="true"/> 
+			</property>
+			<property name="FilterTags" value="fdecor,fother,ffurniture"/>
+		</block>
+		<block name="Supply Drop">
+			<property name="Class" value="Loot"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Material" value="Mwood"/>
+			<property name="Model" value="#@modfolder:Resources/Resources.unity3d?SupplyDropPrefab"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="MultiBlockDim" value="1,4,1"/>
+			<property name="Path" value="solid"/>
+			<property name="Collide" value="movement,rockets,sight,melee"/>
+			<property name="LootList" value="34"/>
+			<drop event="Destroy" count="0"/>
+			<property name="DowngradeBlock" value="garbage_decor1"/>
+		</block>
+</append>
+</config>

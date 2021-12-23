@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<survager>
+	
+	<append xpath="//block[@name='goreBlockHumanCorpse' or @name='bodyBagBlack']">
+		<property name="Class" value="Loot"/>
+		<property name="LootList" value="210"/>
+	</append>
+	
+	<!--<append xpath="//block[@name='bodyBagBlack']">
+		<property name="Class" value="Loot"/>
+		<property name="LootList" value="200"/>
+	</append>-->
+
+</survager>

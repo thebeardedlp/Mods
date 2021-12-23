@@ -1,0 +1,23 @@
+<stallionsden>
+<remove xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='WildGameForest']"></remove>
+<remove xpath="/spawning/biome[@name='burnt_forest']/spawn[@entitygroup='WildGameForest']"></remove>
+<remove xpath="/spawning/biome[@name='desert']/spawn[@entitygroup='WildGameForest']"></remove>
+<remove xpath="/spawning/biome[@name='wasteland']/spawn[@entitygroup='EnemyAnimalsWasteland']"></remove>
+<remove xpath="/spawning/biome[@name='snow']/spawn[@entitygroup='WildGameForest']"></remove>
+
+<insertAfter xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='ZombiesNight']">
+		<spawn maxcount="2" respawndelay="1" time="Any" entitygroup="WildGameForest" spawnDeadChance="0"/>
+		</insertAfter>
+<insertAfter xpath="/spawning/biome[@name='burnt_forest']/spawn[@entitygroup='ZombiesNight']">
+		<spawn maxcount="2" respawndelay="1" time="Any" entitygroup="WildGameForest" spawnDeadChance="0"/>
+		</insertAfter>		
+<insertAfter xpath="/spawning/biome[@name='desert']/spawn[@entitygroup='ZombiesNight']">
+		<spawn maxcount="2" respawndelay="1" time="Any" entitygroup="WildGameForest" spawnDeadChance="0"/>
+		</insertAfter>		
+<insertAfter xpath="/spawning/biome[@name='wasteland']/spawn[@entitygroup='ZombiesWastelandNight']">
+		<spawn maxcount="2" respawndelay="1" time="Any" entitygroup="EnemyAnimalsWasteland" spawnDeadChance="0"/>
+		</insertAfter>
+<insertAfter xpath="/spawning/biome[@name='snow']/spawn[@entitygroup='ZombiesNight']">
+		<spawn maxcount="2" respawndelay="1" time="Any" entitygroup="WildGameForest" spawnDeadChance="0"/>
+		</insertAfter>	
+</stallionsden>

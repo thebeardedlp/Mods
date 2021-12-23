@@ -1,0 +1,10 @@
+<mod>
+	<info>
+		<author>Stallionsden</author>
+		<name>Stallionsdens Invisible animal fix</name>
+		<description>This modlet removes the invisible animals from the world.</description>
+		<mod_version>1.0</mod_version>
+		<game_version>19</game_version>
+		<launcher_version>0.1.0</launcher_version>
+	</info>
+</mod>

@@ -1,0 +1,9 @@
+<configs>
+	<append xpath="/recipes">
+		<recipe name="vehicleLift" count="1" craft_area="workbench">
+			<ingredient name="resourceConcreteMix" count="500"/>
+			<ingredient name="resourceForgedIron" count="20"/>
+			<ingredient name="resourceMechanicalParts" count="30" />
+		</recipe>
+	</append>
+</configs>

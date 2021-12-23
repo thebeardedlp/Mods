@@ -1,0 +1,11 @@
+Required Legal Notice
+
+Jetski Modlet for 7 Days To Die Game.
+
+Models in this modlet are subject to creative commons licence.
+https://creativecommons.org/licenses/by/4.0/
+
+No Models have been altered from the 'original creator' New textures added only and they are set up with appropriate lighting shader in unity for 7 Days to Die game.
+
+Credits to all modellers who make free assets for game use .
+
